@@ -1,6 +1,6 @@
 {
   "name": "jsx-to-pdf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Simple Utility to render React JSX to PDF",
   "main": "dist/jsx-to-pdf.cjs.js",
   "module": "dist/jsx-to-pdf.esm.js",
@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/pritishvaidya/jsx-to-pdf#readme",
   "dependencies": {
+    "dom-to-image": "^2.6.0",
     "jspdf": "^2.2.0"
   },
   "devDependencies": {
@@ -46,6 +47,8 @@
     "jest-extended": "^0.11.0",
     "lint-staged": "^8.1.0",
     "npm-run-all": "^4.1.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "rollup": "^1.1.2",
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-commonjs": "^9.2.0",
