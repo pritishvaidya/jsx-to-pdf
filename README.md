@@ -58,9 +58,9 @@ function App() {
 | scale | Number | 1 | Scale of the HTMLNodeElement element  |
 | x | Number | 0 | Offset x of the PDF |
 | y | Number | 0 | Offset y of the PDF |
-| width | Number | JSPDF document width | Width of the HTMLNodeElement to be set in PDF |
-| height | Number | JSPDF document height | Height of the HTMLNodeElement to be set in PDF |
-| {...rest} | Object | `{}` | [JSPDF](http://raw.githack.com/MrRio/jsPDF/master/docs/jsPDF.html) options  |
+| width | Number | `jsPDF` document width | Width of the `HTMLNodeElement` to be set in PDF |
+| height | Number | `jsPDF` document height | Height of the `HTMLNodeElement` to be set in PDF |
+| `{...rest}` | Object | `{}` | [JSPDF](http://raw.githack.com/MrRio/jsPDF/master/docs/jsPDF.html) options  |
 
 
 ### Output
@@ -69,7 +69,7 @@ function App() {
 | Name  | Type  | Default | Description |
 | :------------ |---------------:| :---------------| :-----|
 | save | Function | `() => {}` | Trigger PDF Submit |
-| jsxRef | `ref` | undefined | Reference to the HTMLNodeElement  |
+| jsxRef | `ref` | undefined | Reference to the `HTMLNodeElement`  |
 | loading | Boolean | false | Loader for PDF save |
 | error | Boolean | false | Error |
 | errorText | String | `() => {}` | Error Text |
@@ -78,7 +78,7 @@ function App() {
 | Name  | Type  | Default | Description |
 | :------------ |---------------:| :---------------| :-----|
 | convertToPDF | Function | `() => {}` | Trigger PDF Submit |
-| jsxRef | `ref` | undefined | Reference to the HTMLNodeElement  |
+| jsxRef | `ref` | undefined | Reference to the `HTMLNodeElement`  |
 | loading | Boolean | false | Loader for PDF save |
 | error | Boolean | false | Error |
 | errorText | String | `() => {}` | Error Text |
