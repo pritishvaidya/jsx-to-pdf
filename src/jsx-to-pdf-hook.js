@@ -35,6 +35,7 @@ function useJsxToPdf(options = {}) {
     } catch (ex) {
       updateError(true);
       updateErrorText(ex);
+    } finally {
       updateLoading(false);
     }
   }
